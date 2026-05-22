@@ -155,12 +155,12 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative flex items-center justify-center p-8">
             <div className="absolute -top-4 -right-4 w-full h-full border-2 border-[#FF6B35] opacity-20" />
             <img
               src={HERO_IMAGE}
               alt="Визуализация — выход из конкуренции"
-              className="w-full h-auto object-cover relative z-10"
+              className="w-full h-auto object-contain relative z-10"
             />
           </div>
         </div>
