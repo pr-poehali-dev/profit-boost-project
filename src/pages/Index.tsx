@@ -285,6 +285,28 @@ export default function Index() {
         </div>
       </section>
 
+      {/* ─── GUARANTEE ─── */}
+      <section className="py-20 bg-gray-50 border-y border-gray-100">
+        <div className="max-w-5xl mx-auto px-6 md:px-16">
+          <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="flex-shrink-0">
+              <div className="w-28 h-28 rounded-full border-4 border-[#FF6B35] flex items-center justify-center bg-white">
+                <Icon name="ShieldCheck" size={48} className="text-[#FF6B35]" />
+              </div>
+            </div>
+            <div>
+              <span className="font-golos text-[#FF6B35] text-sm uppercase tracking-widest">Гарантия</span>
+              <h2 className="font-oswald text-3xl md:text-4xl font-bold uppercase mt-2 mb-4 leading-tight">
+                Полная удовлетворённость или возврат денег
+              </h2>
+              <p className="font-golos text-gray-600 text-lg leading-relaxed">
+                Если после диагностики вы не почувствуете ценности в том, что мы предоставили — мы вернём деньги в полном объёме. Без лишних вопросов и условий. Мы уверены в результате и несём за него ответственность.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── CASES ─── */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 md:px-16">
